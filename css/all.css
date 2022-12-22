@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ 
+a {
+    text-decoration: none;
+     color: #262626;
+}
+
+button {
+    padding: 1.5rem 2rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.7rem;
+}
+
+
