@@ -1,3 +1,12 @@
+<?php
+include 'enums/UserType.php';
+session_start();
+
+if (!in_array($_SESSION['ROLE'], array(UserType::ADMIN, UserType::STUDENT))) {
+    header("Location: login.php");
+    die();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
